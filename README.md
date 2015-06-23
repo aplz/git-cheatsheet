@@ -26,3 +26,6 @@ git reset --soft HEAD^<br />
 git stash<br /> 
 git co <rightbranch><br /> 
 git stash apply<br /> 
+
+#### aliases
++ undo commit: git config --global alias.undo-commit 'reset --soft HEAD^' 
