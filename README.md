@@ -29,3 +29,4 @@ git stash apply<br />
 
 #### aliases
 + undo commit: git config --global alias.undo-commit 'reset --soft HEAD^' 
++ unpushed commits: git config --global alias.unpushed "log --branches --not --remotes --simplify-by-decoration --decorate --oneline"
