@@ -10,6 +10,9 @@ git-cheatsheet
 + change remote origin url: git remote set-url origin \<url\>
 + remove remote: git remote rm \<name_of_remote_to_remove\>
 
+#### tags
++ see tags: git tag -l
++ checkout tag: git checkout tags/\<tag_name\>
  
 #### stash
 git stash<br /> 
