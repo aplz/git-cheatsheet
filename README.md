@@ -34,4 +34,8 @@ git stash apply<br />
 + undo commit: git config --global alias.undo-commit 'reset --soft HEAD^' 
 + unpushed commits: git config --global alias.unpushed "log --branches --not --remotes --simplify-by-decoration --decorate --oneline"
 + checkout: git config --global alias.co "checkout"
-+ shortcut to list branches:  git config --global alias.ba "branch -a"
++ list branches:  git config --global alias.ba "branch -a"
++ last commit: git config --global alias.last=log -1 HEAD --stat
+
+Or just the [git plugin by Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git/git.plugin.zsh). 
+
